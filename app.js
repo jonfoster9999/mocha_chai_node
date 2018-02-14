@@ -14,7 +14,8 @@ function positiveOrNegative(num) {
   }
 }
 
-
+//"module.exports" is required to expose these functions and allow them to be required in other files
+//http://www.tutorialsteacher.com/nodejs/nodejs-module-exports
 module.exports = {
   add,
   subtract,
